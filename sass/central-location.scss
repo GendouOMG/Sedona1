@@ -1,0 +1,18 @@
+.central-location {
+	width: $mobile-width;
+
+	margin: 0 auto;
+	padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+	.central-location {
+		width: $tablet-width;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.central-location {
+		width: $desktop-width;
+	}
+}

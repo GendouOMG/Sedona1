@@ -1,0 +1,160 @@
+.banner-thesis {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	background-color: #eeeeee;
+	color: #000000;
+}
+
+.banner-thesis__text {
+	margin: 0;
+	padding: 30px 20px 30px 20px;
+	text-align: center;
+	// height: 230px;
+	// background-color: #eeeeee;
+	// color: #000000;
+	
+}
+
+
+.banner-thesis__headline {
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.banner-thesis__extension {
+	display: block;
+	margin: 15px 0 20px 0;
+	padding: 0;
+
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.banner-thesis__bottom-line {
+	border-bottom: 1px solid #d6d6d6;
+}
+
+.banner-thesis__picture {
+	width: $mobile-width;
+	height: 260px;
+}
+
+// *** mods ***
+
+.banner-thesis__text--blue-back {
+	padding: 40px 20px 40px 20px;
+	background-color: #81b3d2;
+	color: #ffffff;
+}
+
+.banner-thesis__picture--city {
+	background: url("../img/photo-city-1.jpg") no-repeat top;
+	background-size: contain;
+}
+
+.banner-thesis__picture--bridge {
+	background: url("../img/photo-bridge-1.jpg") no-repeat top;
+	background-size: contain;
+}
+
+// *** end of mods ***
+
+@media (min-width: $tablet-width) {
+	.banner-thesis__text {
+		margin: 0;
+		padding: 0;
+		width: 255px;
+		height: 255px;
+	}
+	.banner-thesis__headline {
+		display: block;
+		margin: 45px 45px 0 45px;
+		padding: 0;
+
+		font-size: 21px;
+		line-height: 26px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.banner-thesis__extension {
+		display: block;
+		margin: 15px 45px 25px 45px;
+		padding: 0;
+	}
+
+	.banner-thesis__picture {
+		width: auto;
+		height: auto;
+		flex-grow: 1;
+	}
+	.banner-thesis__bottom-line {
+		display: none;
+	}
+
+	// *** mods ***
+	.banner-thesis__picture--city {
+		background: url("../img/photo-city-tablet.jpg") no-repeat top;
+		background-size: cover;
+	}
+
+	.banner-thesis__picture--bridge {
+		background: url("../img/photo-bridge-tablet.jpg") no-repeat top;
+		background-size: cover;
+	}
+	// *** end of mods ***
+
+}
+
+@media (min-width: $desktop-width) {
+	.banner-thesis__text {
+		margin: 0;
+		padding: 0;
+		width: 400px;
+		height: 255px;
+	}
+	.banner-thesis__headline {
+		display: block;
+		margin: 45px 120px 0 120px;
+		padding: 0;
+	}
+
+	.banner-thesis__extension {
+		display: block;
+		margin: 15px 65px 0 65px;
+		padding: 0;
+	}
+	.banner-thesis__picture {
+		width: auto;
+		height: auto;
+		flex-grow: 1;
+	}
+
+	.banner-thesis__bottom-line {
+		display: none;
+	}
+
+	// *** mods ***
+	.banner-thesis__picture--city {
+		background: url("../img/photo-city-desktop.jpg") no-repeat top;
+		background-size: cover;
+	}
+
+	.banner-thesis__picture--bridge {
+		background: url("../img/photo-bridge-desktop.jpg") no-repeat top;
+		background-size: cover;
+	}
+	// *** end of mods ***
+}

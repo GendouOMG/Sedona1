@@ -1,0 +1,29 @@
+
+.main-head {
+	margin: 0 auto;
+	width: $mobile-width;
+	// border: 1px solid blue;
+}
+
+.main-head__menu {
+	display: flex;
+	flex-wrap: wrap;
+	// *** check if someone rip
+	justify-content: space-between;
+	// ***
+
+	position: relative;
+
+}
+
+@media (min-width: $tablet-width) {
+	.main-head {
+		width: $tablet-width;
+	}
+}
+
+@media (min-width: $desktop-width) {
+	.main-head {
+		width: $desktop-width;
+	}
+}

@@ -1,0 +1,46 @@
+.banner {
+	// height: 445px;
+
+}
+
+.banner__head {
+	height: 55px;
+	position: relative;
+}
+
+.banner__menu-launcher {
+	display: block;
+	height: 21px;
+	width: 23px;
+	position: absolute;
+	top: 17px;
+	right: 20px;
+	background: url("../img/burger-menu.png") no-repeat;
+}
+
+.banner__slogan {
+	height: 390px;
+	background: url("../img/main-menu-banner.jpg") no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+	.banner__head {
+		display: none;
+	}
+	.banner__slogan {
+		height: 520px;
+		background: url("../img/main-menu-banner-tablet.jpg") no-repeat;
+	}
+
+}
+
+@media (min-width: $desktop-width) {
+	.banner__head {
+		display: none;
+	}
+
+	.banner__slogan {
+		height: 520px;
+		background: url("../img/main-menu-banner-desktop.jpg") no-repeat;
+	}
+}
